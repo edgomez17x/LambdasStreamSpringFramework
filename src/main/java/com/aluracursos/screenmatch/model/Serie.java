@@ -35,6 +35,7 @@ public class Serie {
         sinopsis = datosSerie.sinopsis();
         actores = datosSerie.actores();
         genero = Categoria.fromString(datosSerie.genero().split(",")[0].trim());
+        poster = datosSerie.poster();
     }
 
     @Override
